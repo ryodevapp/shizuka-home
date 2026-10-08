@@ -5,82 +5,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>しずかなホーム画面で使っているライセンス</title>
 <style>
-:root {
-  color-scheme: light dark;
-}
+:root { color-scheme: light dark; }
 body {
-  font-family: serif;
-  line-height: 1.9;
-  margin: 0 auto;
-  max-width: 38rem;
-  padding: 2rem 1.25rem 4rem;
+  margin: 0 auto; padding: 2.5rem 1.25rem 4rem; max-width: 38rem;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif; line-height: 1.9;
+  background: Canvas; color: CanvasText;
 }
-h1 {
-  font-size: 1.5rem;
-  line-height: 1.6;
-  margin: 0 0 2rem;
-}
-h2 {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin: 2.5rem 0 0.75rem;
-}
-p {
-  margin: 0.75rem 0;
-}
-ul {
-  margin: 0.75rem 0;
-  padding-left: 1.5rem;
-}
-li {
-  margin: 0.4rem 0;
-}
-a {
-  color: inherit;
-}
-pre {
-  font-size: 0.75rem;
-  line-height: 1.6;
-  margin: 0.75rem 0;
-  overflow-wrap: anywhere;
-  white-space: pre-wrap;
-}
-.updated {
-  border-top: 1px solid;
-  font-size: 0.9rem;
-  margin-top: 3rem;
-  padding-top: 1rem;
-}
-.home {
-  font-size: 0.9rem;
-  margin-top: 2rem;
-}
+h1 { font-size: 1.5rem; line-height: 1.5; margin: 0 0 2rem; }
+h2 { font-size: 1.15rem; margin: 2.5rem 0 0.75rem; }
+p, ul { margin: 0 0 1.25rem; }
+ul { padding-left: 1.25rem; }
+a { color: inherit; }
+pre { white-space: pre-wrap; word-break: break-word; font-size: 0.8rem; line-height: 1.6; }
 </style>
 </head>
 <body>
-
 <h1>しずかなホーム画面で使っているライセンス</h1>
-
 <p>iOSアプリケーション「しずかなホーム画面」(以下「本アプリ」といいます)は、次の書体と表をアプリの中に入れて配布しています。それぞれの許諾の文の全文を、このページの下に載せます。</p>
-
 <h2>書体と、改行の位置を決めるデータ</h2>
-
 <p>画面の文字に、次の2つの書体を使っています。どちらもSIL Open Font License 1.1で配布されています。</p>
-
 <ul>
 <li>Zen Kaku Gothic New(Copyright 2022 The Zen Kaku Gothic Project Authors)</li>
 <li>しっぽり明朝(Copyright 2021 The Shippori Mincho Project Authors)</li>
 </ul>
-
 <p>画面の文が言葉の途中で改行されないように、文節の切れ目を決める表と、その使い方を入れています。</p>
-
 <ul>
 <li>区切りの表:ICUの日本語の表(jaml.txt)。中身はBudouXの日本語の学習結果です。Copyright © 2022 and later: Unicode, Inc. and others。Unicode License V3</li>
 <li>表の使い方:BudouX(Copyright 2021 Google LLC)と、それをICUに移したものの点数の出し方を、本アプリの中で動くように書き写しました。Apache License 2.0とUnicode License V3。書き写したときに変えたところは、下のNOTICEに書いています</li>
 </ul>
-
-<h2>Zen Kaku Gothic New(OFL-ZenKakuGothicNew.txt)</h2>
-
+<p><a href="../">しずかなホーム画面の規約とポリシー</a></p>
+<h2>Zen Kaku Gothic New(SIL Open Font License 1.1)</h2>
 <pre>Copyright 2022 The Zen Kaku Gothic Project Authors (https://github.com/googlefonts/zen-kakugothic)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -173,10 +127,9 @@ COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE FONT SOFTWARE.</pre>
-
-<h2>しっぽり明朝(OFL-ShipporiMincho.txt)</h2>
-
+OTHER DEALINGS IN THE FONT SOFTWARE.
+</pre>
+<h2>しっぽり明朝(SIL Open Font License 1.1)</h2>
 <pre>Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -269,15 +222,14 @@ COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE FONT SOFTWARE.</pre>
-
-<h2>ICU(LICENSE-ICU.txt)</h2>
-
+OTHER DEALINGS IN THE FONT SOFTWARE.
+</pre>
+<h2>ICU(Unicode License V3)</h2>
 <pre>UNICODE LICENSE V3
 
 COPYRIGHT AND PERMISSION NOTICE
 
-Copyright © 1991-2026 Unicode, Inc.
+Copyright © 2016-2025 Unicode, Inc.
 
 NOTICE TO USER: Carefully read the following legal agreement. BY
 DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
@@ -313,10 +265,9 @@ not be used in advertising or otherwise to promote the sale, use or other
 dealings in these Data Files or Software without prior written
 authorization of the copyright holder.
 
-SPDX-License-Identifier: Unicode-3.0</pre>
-
-<h2>BudouX(LICENSE-BudouX.txt)</h2>
-
+SPDX-License-Identifier: Unicode-3.0
+</pre>
+<h2>BudouX(Apache License 2.0)</h2>
 <pre>                                 Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -497,7 +448,7 @@ SPDX-License-Identifier: Unicode-3.0</pre>
    APPENDIX: How to apply the Apache License to your work.
 
       To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;
+      boilerplate notice, with the fields enclosed by brackets &quot;{}&quot;
       replaced with your own identifying information. (Don&#x27;t include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
@@ -505,7 +456,7 @@ SPDX-License-Identifier: Unicode-3.0</pre>
       same &quot;printed page&quot; as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2021 Google LLC
 
    Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
    you may not use this file except in compliance with the License.
@@ -517,10 +468,9 @@ SPDX-License-Identifier: Unicode-3.0</pre>
    distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.</pre>
-
-<h2>出どころと変えたところ(NOTICE.txt)</h2>
-
+   limitations under the License.
+</pre>
+<h2>NOTICE</h2>
 <pre>文節で折り返す仕組み(PhraseSegmenter・PhraseModel)の出どころ
 
 - 区切りの表 PhraseModel.swift は、Chromium が使う ICU(chromium/deps/icu、commit
@@ -531,13 +481,12 @@ SPDX-License-Identifier: Unicode-3.0</pre>
   Copyright © 2022 and later: Unicode, Inc. and others. 許諾は LICENSE-ICU.txt(Unicode License V3)。
 - 点数の出し方(13種類の特徴の足し算)は、BudouX(https://github.com/google/budoux、
   Copyright 2021 Google LLC)と、それを ICU に移した MlBreakEngine(icu4c/source/common/mlbe.cpp)を
-  Swift に写したもの。許諾は LICENSE-BudouX.txt(Apache License 2.0)と LICENSE-ICU.txt。
-- 表の中身は BudouX の日本語の学習結果を ICU が取り込んだもの。Chrome の CSS
-  `word-break: auto-phrase` は ICU の lw=phrase でこの表を使う(試作品の折り返しと同じになる)。
-- 変えたこと: 表を JSON の文字列にして Swift のソースに入れた。区切りの決まりは ICU の
-  CjkBreakEngine・MlBreakEngine の、漢字・かなの続きの頭と終わりの扱いを写した(PhraseSegmenter.swift)。</pre>
+  Swift に書き直したもの。BudouX の許諾は LICENSE-BudouX.txt(Apache License 2.0)。
+- 最後の行を短くしない改行の選び直し(PrettyLineBreaker)は、Chromium の ScoreLineBreaker
+  (third_party/blink/renderer/core/layout/inline/score_line_breaker.cc、BSD-3-Clause)の考え方を写したもの。
 
-<p class="home"><a href="../">しずかなホーム画面の規約とポリシー</a></p>
-
+これらの文書はソースではないので、Package.swift で target から外している(exclude: Text/ThirdParty)。
+アプリの「ライセンス」(10-release)にも同じ内容を載せる。
+</pre>
 </body>
 </html>
